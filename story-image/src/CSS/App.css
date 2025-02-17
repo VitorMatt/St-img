@@ -29,14 +29,14 @@ img {
 }
 
 .inpt-button-container {
-
+    
     display: flex;
     flex-direction: row;
     gap: 7px;
 }
 
 .inpt-button-container .inpt {
-
+    
     width: 70%;
     height: 30px;
     outline: none;
@@ -48,7 +48,7 @@ img {
 }
 
 .inpt-button-container .submit-button {
-
+    
     background-color: rgba(56, 56, 255, 0.627);
     color: white;
     border: 1px solid rgb(56, 56, 255, 0.627);
@@ -58,20 +58,20 @@ img {
 }
 
 .inpt-button-container .submit-button:hover {
-
+    
     background-color: white;
     color: rgb(56, 56, 255, 0.627);
     transition: 0.5s;
 }
 
 .inpt-button-container .inpt::placeholder {
-
+    
     font-size: 15px;
     color: rgb(102, 102, 255);
 }
 
 h4, .title {
-
+    
     color: rgba(56, 56, 255, 0.544);
     background-color: rgba(56, 56, 255, 0.173);
     border-radius: 5px;
@@ -79,14 +79,17 @@ h4, .title {
 }
 
 .title {
-
+    
     display: flex;
     font-size: 15px;
+    gap: 10px;
+    justify-content: center;
 }
 
 .title img {
-
-    width: 2%;
+    
+    width: 10%;
+    opacity: 30%;
 }
 
 h3 {
@@ -95,11 +98,18 @@ h3 {
 }
 
 .random-image {
-
+    
     display: flex;
     flex-direction: column;
     justify-self: center;
     align-items: center;
     background-color: rgba(56, 56, 255, 0.353);
     border-radius: 10px;
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
